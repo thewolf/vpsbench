@@ -30,9 +30,9 @@ function bench_quick {
     rm -f tarfile*
     echo OK
 
-    echo -n "Benching inbound network. Downloading 100MB file ... "
-    local dl=$( _dl http://cachefly.cachefly.net/100mb.test )
-    echo OK
+    #echo -n "Benching inbound network. Downloading 100MB file ... "
+    #local dl=$( _dl http://cachefly.cachefly.net/100mb.test )
+    #echo OK
 
     cat <<INFO
 Share at https://github.com/mgutz/vpsbench/wiki/VPS-Hosts
