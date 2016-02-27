@@ -171,7 +171,7 @@ function main {
 
 
 # Parse command line options
-while getopts :adfxu opt; do
+while getopts :adfxut opt; do
     case "$opt" in
         a)
             do_downloads=true
@@ -190,6 +190,10 @@ while getopts :adfxu opt; do
             ;;
         u)
             do_unixbench=true
+            ;;
+        t)
+            do_downloads=false
+            do_unixbench=false
             ;;
         ?)
             usage
