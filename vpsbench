@@ -31,10 +31,6 @@ function bench_quick {
     echo OK
 
 
-    cat <<INFO
-Share at https://github.com/mgutz/vpsbench/wiki/VPS-Hosts
-
-
 _$now - VMPLAN - DATACENTER - OS - AUTHOR_
 \`\`\`
 CPU model: $cname
