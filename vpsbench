@@ -164,9 +164,6 @@ USAGE
 # The main script.
 function main {
     bench_quick
-
-    test $do_downloads && bench_downloads
-    test $do_unixbench && bench_unixbench
 }
 
 
